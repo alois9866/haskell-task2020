@@ -24,7 +24,9 @@ source-repository head
 
 library
   exposed-modules:
+      Api
       Lib
+      Model
   other-modules:
       Paths_haskell_task2020
   hs-source-dirs:
