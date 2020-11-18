@@ -6,10 +6,10 @@ import Data.Aeson.TH
 import Data.Char
 
 data Result = Result
-  { operator :: Operator,
-    arguments :: [Double],
-    result :: Maybe Double,
-    err :: Maybe String
+  { operator  :: Operator
+  , arguments :: [Double]
+  , result    :: Maybe Double
+  , err       :: Maybe String
   }
 
 data Operator = Add | Sub | Mul | Div | Sqrt | Pow
